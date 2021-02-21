@@ -28,16 +28,5 @@ public class readContentByExcel4j {
 
 
         }
-    @DataProvider(name = "userlist")
-    public Object[][] user(){
-
-        return new Object[][] {{"mm","pwd","code"},{"user2","pwd2","code2"}};
-    }
-
-
-    @Test(dataProvider = "userlist")
-    public void login(String user,String pwd,String code){
-        System.out.println(user+"\t"+pwd+"\t"+code);
-    }
 
 }
