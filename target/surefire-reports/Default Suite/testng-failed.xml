@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Default Suite]" parallel="classes">
+  <test name="SeleniumDemo1701">
+    <classes>
+      <class name="com.qizi.day3.register"/>
+    </classes>
+  </test> <!-- SeleniumDemo1701 -->
+</suite> <!-- Failed suite [Default Suite] -->
