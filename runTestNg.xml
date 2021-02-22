@@ -3,7 +3,7 @@
 <suite name="Default Suite" thread-count="2" parallel="classes"> <!--参数parallel并发执行，通过classes,还可以通过methods-->
   <test name="SeleniumDemo1701">
     <classes>
-      <class name="com.qizi.day4.DataDriverTest">
+      <class name="com.qizi.day3.register">
       </class>
 
     </classes>
